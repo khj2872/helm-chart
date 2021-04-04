@@ -3,12 +3,23 @@ entries:
   kafka-demo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-04T15:08:02.089035042Z"
+    created: "2021-04-04T15:43:22.797079576Z"
     description: A Helm chart for Kubernetes
     digest: 5e7bd9c6fbb5e1403c2459dd114df75c58e08282562f1f796ec7cb82fe208c0d
     name: kafka-demo
     type: application
     urls:
-    - https://khj2872.github.io/helm-chart/stable/kafka-demo-0.1.0.tgz
+    - kafka-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-04T15:08:02.088460297Z"
+  test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-04T15:43:22.797364069Z"
+    description: A Helm chart for Kubernetes
+    digest: 361678e123df51a10d795e92b266c90ced24d1df173c9c851844e60d4eb335ce
+    name: test
+    type: application
+    urls:
+    - test-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-04-04T15:43:22.796639483Z"
